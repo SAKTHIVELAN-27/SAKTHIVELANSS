@@ -17,24 +17,14 @@ const services = [
     description: "Building responsive, performant web applications using modern technologies like React, TypeScript, and Tailwind CSS.",
     features: ["React/Next.js", "TypeScript", "Responsive Design", "API Integration"],
   },
-  {
-    icon: Smartphone,
-    title: "Responsive Web Design",
-    description: "Ensuring your website looks and functions perfectly across all devices, from mobile phones to large desktop screens.",
-    features: ["Mobile-First", "Cross-Browser", "Performance", "Accessibility"],
-  },
+ 
   {
     icon: Layers,
     title: "Design Systems",
     description: "Creating cohesive design systems and component libraries that ensure consistency across your digital products.",
     features: ["Component Library", "Style Guides", "Documentation", "Scalability"],
   },
-  {
-    icon: Zap,
-    title: "Performance Optimization",
-    description: "Optimizing websites for speed and performance to provide the best user experience and improve SEO rankings.",
-    features: ["Speed Audit", "Code Optimization", "Image Compression", "Lazy Loading"],
-  },
+  
   {
     icon: Users,
     title: "Collaboration",

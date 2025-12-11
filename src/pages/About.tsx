@@ -37,7 +37,9 @@ const About = () => {
                       <User size={64} className="text-primary" />
                     </div>
                     <p className="font-display text-2xl tracking-wider text-primary">SAKTHIVELAN-SS</p>
-                    <p className="font-body text-muted-foreground mt-2">Student & Developer</p>
+                    <p className="font-body text-muted-foreground mt-2">Student</p>
+                    <p className="font-body text-muted-foreground mt-2">developer</p>
+
                   </div>
                 </div>
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-xl" />

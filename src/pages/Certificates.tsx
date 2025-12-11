@@ -7,13 +7,13 @@ import { Award, Calendar, ExternalLink, CheckCircle } from "lucide-react";
 const certificates = [
   {
     title: "Frontend Development",
-    issuer: "freeCodeCamp",
-    date: "2024",
+    issuer: "meta",
+    date: "2025",
     credentialId: "FCC-001",
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     // Place your certificate image in `public/certificates/meta-cert.png`
     // then the page will display it here.
-    image: "/certificates/meta-cert.png",
+    image: "src/pages/Screenshot_11-12-2025_12644_.jpeg",
     verified: true,
   },
   

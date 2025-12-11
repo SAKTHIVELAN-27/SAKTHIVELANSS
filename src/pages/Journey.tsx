@@ -6,40 +6,25 @@ import { BookOpen, Code, Lightbulb, Rocket, Target, TrendingUp } from "lucide-re
 
 const journeyMilestones = [
   {
-    year: "2024",
-    title: "Advanced Frontend Development",
-    description: "Diving deeper into React ecosystem, learning TypeScript, and building complex web applications. Started exploring Next.js and server-side rendering.",
+    year: "2016-2023",
+    title: "velammal vidyalaya",
     icon: Rocket,
     highlight: true,
   },
   {
-    year: "2024",
-    title: "UI/UX Design Mastery",
-    description: "Completed comprehensive UI/UX courses. Started creating design systems and working on real-world design projects using Figma.",
+    year: "2023-2025",
+    title: " velammal bodhi campus",
     icon: Lightbulb,
     highlight: false,
   },
   {
-    year: "2023",
-    title: "React & Modern JavaScript",
+    year: "2025-2029",
+    title: "vit chennai(cse)",
     description: "Learned React fundamentals, hooks, state management, and modern ES6+ JavaScript. Built my first interactive web applications.",
     icon: Code,
     highlight: false,
   },
-  {
-    year: "2023",
-    title: "Web Development Foundations",
-    description: "Started my coding journey with HTML, CSS, and JavaScript. Learned responsive design principles and built static websites.",
-    icon: BookOpen,
-    highlight: false,
-  },
-  {
-    year: "2022",
-    title: "The Beginning",
-    description: "Discovered my passion for technology and design. Started exploring programming concepts and decided to pursue web development.",
-    icon: Target,
-    highlight: false,
-  },
+  
 ];
 
 const currentLearning = [
