@@ -6,53 +6,17 @@ import { Award, Calendar, ExternalLink, CheckCircle } from "lucide-react";
 
 const certificates = [
   {
-    title: "Frontend Development Fundamentals",
+    title: "Frontend Development",
     issuer: "freeCodeCamp",
     date: "2024",
     credentialId: "FCC-001",
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    // Place your certificate image in `public/certificates/meta-cert.png`
+    // then the page will display it here.
+    image: "/certificates/meta-cert.png",
     verified: true,
   },
-  {
-    title: "React - The Complete Guide",
-    issuer: "Udemy",
-    date: "2024",
-    credentialId: "UC-002",
-    skills: ["React", "Hooks", "Redux", "Next.js"],
-    verified: true,
-  },
-  {
-    title: "UI/UX Design Specialization",
-    issuer: "Coursera",
-    date: "2023",
-    credentialId: "CS-003",
-    skills: ["Figma", "User Research", "Prototyping", "Design Thinking"],
-    verified: true,
-  },
-  {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "2023",
-    credentialId: "FCC-004",
-    skills: ["Algorithms", "Data Structures", "Problem Solving"],
-    verified: true,
-  },
-  {
-    title: "Responsive Web Design",
-    issuer: "freeCodeCamp",
-    date: "2023",
-    credentialId: "FCC-005",
-    skills: ["CSS Grid", "Flexbox", "Media Queries", "Accessibility"],
-    verified: true,
-  },
-  {
-    title: "Git & GitHub Fundamentals",
-    issuer: "LinkedIn Learning",
-    date: "2023",
-    credentialId: "LL-006",
-    skills: ["Version Control", "Collaboration", "Branching", "Pull Requests"],
-    verified: true,
-  },
+  
 ];
 
 const Certificates = () => {
@@ -67,6 +31,7 @@ const Certificates = () => {
           <p className="font-body text-lg text-muted-foreground text-center max-w-2xl mx-auto mt-4">
             A collection of certifications and achievements that represent my continuous learning journey.
           </p>
+          {/* Certificate preview removed; individual certificate images render in cards below */}
         </div>
       </section>
 
@@ -99,6 +64,15 @@ const Certificates = () => {
                 className="animate-fade-in-up group"
                 style={{ animationDelay: `${index * 0.1}s` } as React.CSSProperties}
               >
+                {cert.image && (
+                  <div className="mb-4 flex justify-center">
+                    <img
+                      src={cert.image}
+                      alt={`${cert.title} certificate`}
+                      className="w-full max-w-xs h-auto rounded-md shadow-sm border border-border/30"
+                    />
+                  </div>
+                )}
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/20 border border-primary/50 flex items-center justify-center">
                     <Award className="text-primary" size={24} />
