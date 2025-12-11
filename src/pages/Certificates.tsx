@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import SectionTitle from "@/components/SectionTitle";
 import GlowCard from "@/components/GlowCard";
 import { Award, Calendar, ExternalLink, CheckCircle } from "lucide-react";
+import { Certificate } from "node:crypto";
 
 const certificates = [
   {
@@ -13,7 +14,7 @@ const certificates = [
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     // Place your certificate image in `public/certificates/meta-cert.png`
     // then the page will display it here.
-    image: "src/pages/Screenshot_11-12-2025_12644_.jpeg",
+    image: "/certificates/meta-cert.png",
     verified: true,
   },
   
@@ -109,7 +110,8 @@ const Certificates = () => {
                 </div>
 
                 <button className="flex items-center gap-2 text-sm font-body text-primary hover:text-primary/80 transition-colors">
-                  View Certificate
+                  
+                  
                   <ExternalLink size={14} />
                 </button>
               </GlowCard>

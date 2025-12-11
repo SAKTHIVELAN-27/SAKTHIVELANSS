@@ -8,19 +8,21 @@ const journeyMilestones = [
   {
     year: "2016-2023",
     title: "velammal vidyalaya",
+    
     icon: Rocket,
     highlight: true,
   },
   {
     year: "2023-2025",
     title: " velammal bodhi campus",
+    description: "studied for jee mains and advanced but secured only 90 percentile.also the place where started learning basic programming languages python",
     icon: Lightbulb,
     highlight: false,
   },
   {
     year: "2025-2029",
     title: "vit chennai(cse)",
-    description: "Learned React fundamentals, hooks, state management, and modern ES6+ JavaScript. Built my first interactive web applications.",
+    description: "learning langauages python,java,c,c++",
     icon: Code,
     highlight: false,
   },
@@ -32,6 +34,9 @@ const currentLearning = [
   { name: "Node.js Basics", progress: 30 },
   { name: "Advanced TypeScript", progress: 50 },
   { name: "System Design", progress: 25 },
+  { name: "C++", progress: 28 },
+  { name: "C", progress: 27 },
+  { name: "DSA", progress: 25 },
 ];
 
 const futureGoals = [

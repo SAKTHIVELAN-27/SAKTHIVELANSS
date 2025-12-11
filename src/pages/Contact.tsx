@@ -63,8 +63,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-display text-sm tracking-wider">EMAIL</p>
-                    <a href="mailto:sakthivelan@example.com" className="font-body text-muted-foreground hover:text-primary transition-colors">
-                      sakthivelan@example.com
+                    <a href="mailto:sakthivelanss02@example.com" className="font-body text-muted-foreground hover:text-primary transition-colors">
+                      sakthivelanss02@example.com
                     </a>
                   </div>
                 </GlowCard>
