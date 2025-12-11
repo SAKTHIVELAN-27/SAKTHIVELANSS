@@ -44,7 +44,7 @@ const Certificates = () => {
               { number: "6+", label: "Certificates" },
               { number: "15+", label: "Skills Learned" },
               { number: "100+", label: "Hours of Learning" },
-              { number: "2024", label: "Latest Achievement" },
+              { number: "2025", label: "Latest Achievement" },
             ].map((stat, index) => (
               <GlowCard key={stat.label} className="text-center p-4 animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` } as React.CSSProperties}>
                 <p className="font-display text-3xl text-primary mb-1">{stat.number}</p>
