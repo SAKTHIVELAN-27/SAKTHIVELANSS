@@ -14,7 +14,7 @@ const certificates = [
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     // Place your certificate image in `public/certificates/meta-cert.png`
     // then the page will display it here.
-    image: "src/pages/certificate.jpeg"
+    image: "src/pages/certificate.jpeg",
     verified: true,
   },
   
